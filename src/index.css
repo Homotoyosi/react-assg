@@ -1,0 +1,153 @@
+.hero{
+  height: 100vh;
+}
+.navigation{
+  display: flex;
+  justify-content: space-between;
+  padding: 5px 20px;
+  align-items: center;
+  margin: 30px;
+}
+.navi{
+  display: flex;
+}
+.navbtn{
+  display: flex;
+  align-items: center;
+}
+.heroimg-img{
+  width: 50%;
+  padding-left: 40%;
+}
+.heroimg-img2{
+  width: 50%;
+  display: none;
+}
+.navlinks{
+  display: flex;
+  gap: 20px;
+  align-items: center;
+nav{
+  margin-left: 20px;
+}
+}
+.btn-1{
+  margin-left: 50px;
+  background-color: transparent;
+
+button{
+  border-radius: 10px;
+  width: 100px;
+  height: 35px;
+  background-color: transparent;
+  
+}
+}
+.hero-container{
+  display: flex;
+  justify-content: space-between;
+  margin-top: 0px;
+}
+.hero-content{
+  margin-left: 10%;
+  width: 50%;
+}
+h1{
+  font-size: 80px;
+  width: 100%;
+  line-height: 60px;
+
+}
+.btn-2{
+  width: 100px;
+  height: 40px;
+  align-items: center;
+  background-color: black;
+  color: white;
+  border-radius: 10px;
+  margin-top: 20px;
+  
+}
+p{
+  width: 70%;
+  font-size: 15px;
+  line-height: 20px;
+}
+.hero-anc{
+  display: flex;
+  justify-content: space-around;
+  align-items: center; 
+  gap: 20px;  
+  padding-top: 50px;
+}
+
+.icon-menu{
+  display: none;
+}
+
+@media (max-width: 800px) {
+  .icon-menu{
+      display: flex;
+  }
+  .loginbtn{
+      display: none;
+  }
+  .btn-1{
+      display: none;
+  }
+  .navlinks{
+      display: none;
+  }
+  .heroimg-img{
+      display: none;
+  }
+  .heroimg-img2{
+      display: flex;
+      width: 100%;
+      margin: 0px 0px;
+      padding: 0px 0px;
+      position: relative;
+  }
+  .hero-content {
+      position: absolute;
+      display: flex;
+      flex-direction: column;
+      align-items: center;
+      text-align: center;
+      justify-content: center;
+      padding: 20px;
+      margin-left: 0px;
+      height: 100vh;
+      box-sizing: border-box;
+      margin-top: 350px;
+      width: 100%;
+  }
+  
+  .hero-content h1 {
+      margin-bottom: 0px;
+      font-size: 40px;
+  }
+  
+  .hero-content p {
+      margin-bottom: 0px;
+      margin-top: 20px;
+      width:  100%;
+      font-size: 23px;
+      line-height: 30px;
+  }
+  
+  .hero-content .btn-2 {
+      margin-bottom: 0px;
+      margin-top: 40px;
+      width: 100px;
+  }
+  
+  .hero-anc {
+      display: flex;
+      gap: 8px;
+      justify-content: center;
+      flex-wrap: wrap;
+      margin-bottom: 50px;
+      width: 100%;
+  }
+}
